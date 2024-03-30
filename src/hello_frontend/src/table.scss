@@ -1,0 +1,122 @@
+/* park this here for now */
+.full-width-table {
+  width: 100%;
+  border-collapse: collapse; /* Remove space between borders */
+}
+
+.full-width-table td {
+  padding: 0; /* Remove default padding */
+}
+
+.full-width-image {
+  display: block; /* Remove default image inline spacing */
+  width: 100%; /* Make the image expand to the width of its container */
+  height: auto; /* Keep the aspect ratio of the image */
+}
+
+
+/* Buttons styling */
+
+.button-community {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Matching font */
+  font-size: 0.9em; /* Consistent font size */
+  background-color: #009879; /* Matching the header background color */
+  color: #ffffff; /* Text color matching the header text color */
+  padding: 10px 20px; /* Adequate padding for button size */
+  border: none; /* No border for a cleaner look */
+  border-radius: 5px; /* Slight rounding of corners for a modern look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Consistent shadow with the table */
+  cursor: pointer; /* Change cursor to pointer on hover over the button */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button-community:hover {
+  background-color: #007861; /* Slightly darker shade on hover for interaction feedback */
+}
+
+
+
+/* General Table Styling */
+.table-community {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-community thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table-community th,
+.table-community td {
+  padding: 12px 15px;
+}
+
+.table-community tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Hover Effect for Rows */
+.table-community tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table-community tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.table-community tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Image Styling */
+.img-in-table {
+  width: auto; /* Adjust based on your needs */
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Description Text Styling */
+.desc-text {
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 600px) {
+  .table-community thead {
+    display: none;
+  }
+
+  .table-community, .table-community tbody, .table-community tr, .table-community td {
+    display: block;
+    width: 100%;
+  }
+
+  .table-community tr {
+    margin-bottom: 15px;
+  }
+
+  .table-community td {
+    text-align: right;
+    padding-left: 50%;
+    text-align: right;
+    position: relative;
+  }
+
+  .table-community td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
