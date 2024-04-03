@@ -3,3 +3,5 @@
 Welcome to your Digital Currency Exchange and Moos Bazar.
 
 The vision behind this project is a dual currency exchange for communities.
+
+Video Link: https://youtu.be/gNZgufFkYmU
