@@ -1,7 +1,13 @@
-# C2C Prototype
+# C2C Prototype - Moos Bazar
 
-Welcome to your Digital Currency Exchange and Moos Bazar.
+Welcome to Dual Currency Exchange and Moos Bazar project on the Internet Computer.
 
-The vision behind this project is a dual currency exchange for communities.
+A dual currency exchange for communities.
+How to nurture and support a culture of appreciation with a "appreciation" coin, next to a "default" coin.
 
-Video Link: https://youtu.be/gNZgufFkYmU
+2 min Video Link: https://youtu.be/gNZgufFkYmU
+
+Source code of Bazar + DCE (v1) in this Github
+
+Deployed version of the prototype Dual Currency Exchange (v2)
+https://chsco-mqaaa-aaaan-qmbfq-cai.icp0.io/
